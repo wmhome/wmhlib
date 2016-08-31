@@ -1,0 +1,117 @@
+/*
+Error: Undefined variable: "$grey-light-color".
+        on line 18 of src/sass/core/buttons.scss
+        from line 6 of src/sass/core/_core.scss
+        from line 36 of src/sass/wmhcsslib.scss
+
+13: // Bootstrap (only not used in core)
+14: @import "ext-lib/bootstrap/_bootstrap.scss";
+15: 
+16: // Font Awesome 4.0.3
+17: @import "ext-lib/font-awesome/_variables.scss";
+18: @import "ext-lib/font-awesome/_mixins.scss";
+19: @import "ext-lib/font-awesome/_path.scss";
+20: @import "ext-lib/font-awesome/_core.scss";
+21: @import "ext-lib/font-awesome/_larger.scss";
+22: @import "ext-lib/font-awesome/_fixed-width.scss";
+23: @import "ext-lib/font-awesome/_list.scss";
+
+Backtrace:
+src/sass/core/buttons.scss:18
+src/sass/core/_core.scss:6
+src/sass/wmhcsslib.scss:36
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/script/tree/node.rb:50:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:377:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:410:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:410:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:412:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:410:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:308:in `block (2 levels) in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:308:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:308:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:305:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:308:in `block (2 levels) in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:308:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:308:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:305:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/exec/sass_scss.rb:375:in `run'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/exec/base.rb:40:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.0/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:23:in `load'
+/usr/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$grey-light-color\".\A         on line 18 of src/sass/core/buttons.scss\A         from line 6 of src/sass/core/_core.scss\A         from line 36 of src/sass/wmhcsslib.scss\A \A 13: // Bootstrap (only not used in core)\A 14: @import \"ext-lib/bootstrap/_bootstrap.scss\";\A 15: \A 16: // Font Awesome 4.0.3\A 17: @import \"ext-lib/font-awesome/_variables.scss\";\A 18: @import \"ext-lib/font-awesome/_mixins.scss\";\A 19: @import \"ext-lib/font-awesome/_path.scss\";\A 20: @import \"ext-lib/font-awesome/_core.scss\";\A 21: @import \"ext-lib/font-awesome/_larger.scss\";\A 22: @import \"ext-lib/font-awesome/_fixed-width.scss\";\A 23: @import \"ext-lib/font-awesome/_list.scss\";"; }

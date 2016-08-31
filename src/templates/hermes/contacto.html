@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> </html><![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8" />
+	<title>Hermes</title>
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="./css/base.css" />
+	<link rel="stylesheet" href="./css/skeleton.css" />
+	<link rel="stylesheet" href="./css/layout.css" />
+	<link rel="stylesheet" href="./css/retina.css" />
+	<link rel="stylesheet" href="./css/font-awesome.css" />
+    <!--[if lte IE 8]>
+        <script src="js/html5.js"></script>
+    <![endif]-->		
+		
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="./favicon.icns" />
+	<link rel="apple-touch-icon" href="./favicon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="./favicon.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="./favicon.png" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<style>
+	.contact-wrap-inside{
+		position: initial;
+		width: auto;
+	}
+	</style>
+</head>
+<body>	
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<!-- Primary Page Layout
+	================================================== -->	
+	<div class="overlay overlay-contentscale">		
+		<div class="logo1"></div>
+		<button type="button" class="overlay-close">Close</button>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html">Empresa</a></li>
+				<li><a href="./index.html">Portfolio</a></li>
+				<li><a href="./services.html">Servicios</a></li>
+				<li><a href="./contacto.html">Contacto</a></li>
+			</ul>
+		</nav>			
+		<video id="video_background" autoplay="true" loop="loop" muted="muted" volume="0"> 
+			<source src="./videos/video.webm" type="video/webm"> 
+			<source src="./videos/video.mp4" type="video/mp4"> 
+			<source src="./videos/video.ogg" type="video/ogg">
+		</source></source></source></video>						
+	</div>
+		 
+	<div class="wrapper">	
+		<div class="menu-btn" id="trigger-overlay" type="button"></div>		
+		<div class="main">	
+		<section id="contacto">
+			<section id="google-map" class="gmap" style="height: 100%; opacity: 0.5;"></section>                       
+			<div class="social-wrap">
+				<ul class="social">
+					<li class="facebook"><a href="#" class="fa fa-facebook"></a></li>
+					<li class="twitter"><a href="#" class="fa fa-twitter"></a></li>
+					<li class="dribbble"><a href="#" class="fa fa-google-plus"></a></li>
+					<li class="behance"><a href="#" class="fa fa-youtube"></a></li>
+					<li class="linked-in"><a href="#" class="fa fa-linkedin"></a></li>
+				</ul>
+			</div>	
+			<div id="map"></div>						
+			<div class="contact-wrap">
+				<a href="#"><div class="contact-us" data-modal-open="modal-1" data-animation="slideFade">Escríbenos</div></a>	
+				<p> C/Bellmunt, 3 - Canovelles, 08420 - Barcelona</p>
+				<p> <a href="mailto:whitemind@whitemind.es" title="">whitemind@whitemind.es</a></p>
+				<p> (+34) 607 26 07 66</p>
+			</div>							
+		</section>		
+		</div>
+	</div>		
+	<div id="modal-1" class="mb-modal">
+		<h5>Envíanos un mensaje</h5>
+			<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post" />
+				<label for="name">Nombre: * 
+					<span class="error" id="err-name">profavor introduce tu nombre</span>
+				</label>
+				<input name="name" id="name" type="text" />
+				<label for="email">E-Mail: * 
+					<span class="error" id="err-email">porfavor escribe tu e-mail</span>
+					<span class="error" id="err-emailvld">formato de e-mail no válido</span>
+				</label>
+				<input name="email" id="email" type="text" />
+				<label for="message">Mensaje:</label>
+				<textarea name="message" id="message"></textarea>
+				<div id="button-con"><button class="send_message" id="send">Enviar</button></div>	
+				<div class="error text-align-center" id="err-form">¡Ha habido un problema al validar el formulario, porfavor vuelva a intentarlo!</div>
+				<div class="error text-align-center" id="err-timedout">¡La conexión con el servidor ha fallado!</div>
+				<div class="error" id="err-state"></div>
+			</form>
+			<div id="ajaxsuccess">¡¡Enviado correctamente!!</div>			 
+		<div class="close-modal">&#215;</div>
+	</div>	
+<!-- JAVASCRIPT
+================================================== -->
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/modernizr.custom.js"></script>
+<script type="text/javascript" src="./js/retina-1.1.0.min.js"></script>	
+<script type="text/javascript" src="./js/jquery.easing.js"></script>
+
+<script type="text/javascript" src="./js/jquery.typer.js"></script> 
+<script type="text/javascript" src="./js/jquery.onepage-scroll.js"></script>
+<script type="text/javascript" src="./js/classie.js"></script>
+<script type="text/javascript" src="./js/demo7.js"></script>
+ 		
+
+<script type="text/javascript" src="./js/modal.min.js"></script>
+<script type="text/javascript" src="./js/contact.js"></script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="./js/jquery.gmap.js"></script>
+  	  
+<!-- End Document
+================================================== -->
+<script type="text/javascript">
+//Preloader
+	$(window).load(function() {
+		//$('#modal-1').slideDown('slow');
+		$("#status").fadeOut();
+		$("#preloader").delay(350).fadeOut("slow");
+	}) 
+//Menu btn
+	$('.menu-btn, .close-modal').click(function(){
+		$('#modal-1').slideUp('slow');
+	});
+</script>
+<script type="text/javascript">
+    $('#google-map').gMap({
+
+        address: 'Canovelles, Spain',
+        maptype: 'ROADMAP',
+        zoom: 14,
+        markers: [
+            {
+                address: 'Canovelles, Spain',
+                html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Bienvenidos a<span> Whitemind</span></h4><p class="nobottommargin"></p></div>',
+                icon: {
+                    image: "images/icons/map-icon-red.png",
+                    iconsize: [32, 39],
+                    iconanchor: [32,39]
+                }
+            }
+        ],
+        doubleclickzoom: false,
+        controls: {
+            panControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            scaleControl: false,
+            streetViewControl: false,
+            overviewMapControl: false
+        }
+
+    });
+</script>	
+</body>
+</html>

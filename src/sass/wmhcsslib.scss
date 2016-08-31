@@ -1,0 +1,47 @@
+/** WhiteMind CSS Library v0.0.1 **/
+
+/*!
+ * WhiteMind CSS Library
+ * Collection of styles for the WM HTML objects library
+ * Bootstrap version v3.3.7 (http://getbootstrap.com)
+ * Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ */
+ 
+// External libraries styles
+// ========================================
+
+// Bootstrap (only not used in core)
+@import "ext-lib/bootstrap/_bootstrap.scss";
+
+// Font Awesome 4.0.3
+@import "ext-lib/font-awesome/_variables.scss";
+@import "ext-lib/font-awesome/_mixins.scss";
+@import "ext-lib/font-awesome/_path.scss";
+@import "ext-lib/font-awesome/_core.scss";
+@import "ext-lib/font-awesome/_larger.scss";
+@import "ext-lib/font-awesome/_fixed-width.scss";
+@import "ext-lib/font-awesome/_list.scss";
+@import "ext-lib/font-awesome/_bordered-pulled.scss";
+@import "ext-lib/font-awesome/_animated.scss";
+@import "ext-lib/font-awesome/_rotated-flipped.scss";
+@import "ext-lib/font-awesome/_stacked.scss";
+@import "ext-lib/font-awesome/_icons.scss";
+
+// Slide-Push-Menus
+// ========================================
+@import "ext-lib/Slide-Push-Menus/style.scss";
+
+// Core styles
+// ========================================
+@import "core/_core.scss";
+
+// Theme styles
+// ========================================
+//@import "theme/_theme.scss";
+//@import "theme/appweb/_appweb.scss";
+// Core variables and mixins
+// ========================================
+//@import "core/variables.scss";
+//@import "theme/variables.scss";
+//@import "variables-theme.scss";
+//@import "core/mixins.scss";
