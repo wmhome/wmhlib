@@ -15,14 +15,14 @@ $pass=$_POST['password'];
 	$result=busqueda($sql, $link);
 	if($row=recibir_array($result)){
 		if($row['tipo']=="superuser" || $row['tipo']=="administrador"){
-			$_SESSION['usuario']=$row['nombre']." ".$row['apellidos'];
-			$_SESSION['tipo']=="superadministrador";
+			$_SESSION['usuarioa']=$row['nombre']." ".$row['apellidos'];
+			$_SESSION['tipo']="superuser";
 			echo "Usuari registrat: ".$_SESSION['usuario']."<br />";
 			echo "<a href='dashboard.php?user=$_SESSION[usuario]'>Continuar</a>";
 			?><script>document.location.href="../../home.html";</script><?php
 		}
-		else{ echo "Usuario no autorizado<br><a href='../../index.html'>Volver</a>";} 	
+		else{ echo "Usuario no autorizado<br><a href='../../../index.html'>Volver</a>";} 	
 	}
 	
-	else echo "Usuario o Contrase&ntilde;a incorrectos, int&eacute;ntalo de nuevo.<a href='../../index.html'>Atras</a>";
+	else echo "Usuario o Contrase&ntilde;a incorrectos, int&eacute;ntalo de nuevo.<a href='../../../index.html'>Atras</a>";
 //}

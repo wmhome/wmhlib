@@ -7,22 +7,22 @@
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 300;
-  src: url("../../assets/fonts/oxygen/oxygen-v5-latin-300.eot");
-  src: local("Oxygen Light"), local("Oxygen-Light"), url("../../assets/fonts/oxygen/oxygen-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/oxygen/oxygen-v5-latin-300.woff2") format("woff2"), url("../../assets/fonts/oxygen/oxygen-v5-latin-300.woff") format("woff"), url("../../assets/fonts/oxygen/oxygen-v5-latin-300.ttf") format("truetype"), url("../../assets/fonts/oxygen/oxygen-v5-latin-300.svg#Oxygen") format("svg");
+  src: url("../../assets/font/oxygen/oxygen-v5-latin-300.eot");
+  src: local("Oxygen Light"), local("Oxygen-Light"), url("../../assets/font/oxygen/oxygen-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../../assets/font/oxygen/oxygen-v5-latin-300.woff2") format("woff2"), url("../../asset/fonts/oxygen/oxygen-v5-latin-300.woff") format("woff"), url("../../assets/font/oxygen/oxygen-v5-latin-300.ttf") format("truetype"), url("../../assets/font/oxygen/oxygen-v5-latin-300.svg#Oxygen") format("svg");
 }
 @font-face {
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 400;
-  src: url("../../assets/fonts/oxygen/oxygen-v5-latin-regular.eot");
-  src: local("Oxygen"), local("Oxygen-Regular"), url("../../assets/fonts/oxygen/oxygen-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/oxygen/oxygen-v5-latin-regular.woff2") format("woff2"), url("../../assets/fonts/oxygen/oxygen-v5-latin-regular.woff") format("woff"), url("../../assets/fonts/oxygen/oxygen-v5-latin-regular.ttf") format("truetype"), url("../../assets/fonts/oxygen/oxygen-v5-latin-regular.svg#Oxygen") format("svg");
+  src: url("../../assets/font/oxygen/oxygen-v5-latin-regular.eot");
+  src: local("Oxygen"), local("Oxygen-Regular"), url("../../assets/font/oxygen/oxygen-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../assets/font/oxygen/oxygen-v5-latin-regular.woff2") format("woff2"), url("../../assets/font/oxygen/oxygen-v5-latin-regular.woff") format("woff"), url("../../assets/font/oxygen/oxygen-v5-latin-regular.ttf") format("truetype"), url("../../assets/font/oxygen/oxygen-v5-latin-regular.svg#Oxygen") format("svg");
 }
 @font-face {
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 700;
-  src: url("../../assets/fonts/oxygen/oxygen-v5-latin-700.eot");
-  src: local("Oxygen Bold"), local("Oxygen-Bold"), url("../../assets/fonts/oxygen/oxygen-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/oxygen/oxygen-v5-latin-700.woff2") format("woff2"), url("../../assets/fonts/oxygen/oxygen-v5-latin-700.woff") format("woff"), url("../../assets/fonts/oxygen/oxygen-v5-latin-700.ttf") format("truetype"), url("../../assets/fonts/oxygen/oxygen-v5-latin-700.svg#Oxygen") format("svg");
+  src: url("../../assets/font/oxygen/oxygen-v5-latin-700.eot");
+  src: local("Oxygen Bold"), local("Oxygen-Bold"), url("../../assets/font/oxygen/oxygen-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../../assets/font/oxygen/oxygen-v5-latin-700.woff2") format("woff2"), url("../../asset/fonts/oxygen/oxygen-v5-latin-700.woff") format("woff"), url("../../asset/fonts/oxygen/oxygen-v5-latin-700.ttf") format("truetype"), url("../../asset/fonts/oxygen/oxygen-v5-latin-700.svg#Oxygen") format("svg");
 }
 /* -----------------------------------------------------------------------------
 

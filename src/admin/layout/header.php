@@ -5,13 +5,11 @@ $rol=$_SESSION['tipo'];
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button class="btn btn-link btn-plus pull-right visible-xs sb-toggle-right"><span class="fa fa-plus fa-2x"></span></button>
-      <button type="button" class="navbar-toggle pull-left visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="margin-left: 15px;">
-        <span class="sr-only">Toggle navigation</span>
+      <a type="button" class="navbar-toggle c-button" id="c-button--push-right">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
+      </a>
       <a class="navbar-brand" href="#">WMAdmin</a>
     </div>
 
@@ -20,7 +18,7 @@ $rol=$_SESSION['tipo'];
       <ul class="nav navbar-nav">
         <li><a href="dashboard.php">Dashboard <span class="sr-only">(current)</span></a></li>
         <?php
-        if($rol=="superusuario" || $rol=="administrador"){
+        if($rol=="superuser" || $rol=="administrador"){
         ?>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Secciones web <span class="caret"></span></a>
@@ -31,17 +29,17 @@ $rol=$_SESSION['tipo'];
         </li>
         <?php
         }
-        if($rol=="superusuario"){
+        if($rol=="superuser"){
         ?>
         <li><a href="usuaris.php">Usuarios</a></li>
         <?php
         }
-        if($rol=="superusuario" || $rol=="administrador"){
+        if($rol=="superuser" || $rol=="administrador"){
         ?>
         <li><a href="clientes.php">Clientes</a></li>
         <?php
         }
-        if($rol=="superusuario" || $rol=="administrador"){
+        if($rol=="superuser" || $rol=="administrador"){
         ?>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos <span class="caret"></span></a>
@@ -53,7 +51,7 @@ $rol=$_SESSION['tipo'];
         <li><a href="blog.php">Blog</a></li>
         <?php
         }
-        if($rol=="superusuario" || $rol=="comercial"){
+        if($rol=="superuser" || $rol=="comercial"){
         ?>
         <li><a href="ventas.php">Ventas</a></li>
         <?php

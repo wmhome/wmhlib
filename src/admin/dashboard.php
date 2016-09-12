@@ -4,7 +4,7 @@ session_start();
 ob_start();
 
 if (!$_SESSION['usuarioa'] || $_SESSION['usuarioa']=="Invitado"){
-	header("Location:index.php");
+	header("Location:/index.html");
 }
 
 $link=conecta();
@@ -18,8 +18,9 @@ $link=conecta();
     <title>WhiteMind Library</title>
 
     <!-- WM CSS Lib -->
-    <link href="../css/wmcsslib.css" rel="stylesheet">
-
+    <link href="../css/wmhcsslib.css" rel="stylesheet">
+    <!-- Slide Menus CSS -->
+    <link href="../css/components/slidemenu/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,7 +33,7 @@ $link=conecta();
 	  	<header>
 	  		<?php include("layout/header.php");?>
 	  	</header>
-	  	<div class="page-wrap" id="page-content-wrapper">
+	  	<div class="page-wrap o-wrapper" id="wrapper">
 		  	<div class="container">
 		  		<div class="row">
 		  			<div class="col-sm-12">
@@ -44,6 +45,18 @@ $link=conecta();
 		  				<div class="page-header">
 						  <h1>WhiteMind Backoffice <small>v.1.0.1</small></h1>
 						</div>
+						<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"></h3>
+						</div>
+						<div class="panel-body">
+							<p>
+								<button id="c-button--slide-left" class="c-button">Slide Left</button>
+								<button id="c-button--push-left" class="c-button">Push Left</button>
+							</p>
+							<p>Slide and push menus that are initially hidden off screen, and transition into view with CSS transitions.</p>
+						</div>
+					</div>
 		  			</div>
 		  		</div>
 		  	</div>
@@ -51,7 +64,7 @@ $link=conecta();
 	  	
 	  	<!-- Side nav for responsive views -->
 	    <div class="sb-slidebar sb-right sb-style-overlay sb-width-wide plm prm pbm mt52">
-	      <?php include("layout/sidenav-right.html");?>
+	      <?php include("layout/side-navs.html");?>
 	    </div>
 	    <!-- Side nav -->
 	  	<footer class="site-footer">
@@ -63,16 +76,8 @@ $link=conecta();
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/components/slidebars/slidebars.js"></script>
-    <script>
-	  (function($) {
-	    $(document).ready(function() {
-	      $.slidebars({
-	        scrollLock: true // true or false
-	      });
-	    });
-	  }) (jQuery);
-	</script>
+    <script src="../libs/js/bootstrap.min.js"></script>
+    <script src="../libs/js/components/slidemenu/menu.js"></script>
+    <script src="../libs/js/components/slidemenu/side-navs.js"></script>
   </body>
 </html>
