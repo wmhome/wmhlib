@@ -3,6 +3,12 @@
 	border-radius: 0;
 	padding: 10px 20px;
 	border: 1px solid;
+	
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
 	&:hover,
 	&:focus,
 	&:active{
