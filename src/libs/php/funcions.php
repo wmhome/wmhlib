@@ -1,7 +1,12 @@
 <?php
+//VARS
+$cobophone_alojamiento='db647078095.db.1and1.com';
+$cobophone_user='dbo647078095';
+$cobophone_pass='.Mimosa1130';
+$cobophone_db='db647078095';
 function conecta(){
-	$link=mysql_connect("db509550299.db.1and1.com", "dbo509550299", "lopercal");
-	mysql_select_db("db509550299", $link);
+	$link=mysql_connect($cobophone_alojamiento, $cobophone_user, $cobophone_pass);
+	mysql_select_db($cobophone_db, $link);
 	return $link;	
 }
 function busqueda($sql, $link){

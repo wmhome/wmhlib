@@ -11,7 +11,7 @@ $pass=$_POST['password'];
 //if($_POST['envia']){
 	include("funcions.php");
 	$link=conecta();
-	$sql="select * from users where login='$user' and pass='$pass' and estado='activado'";
+	$sql="select * from usuarios where login='$user' and pass='$pass' and estado=1";
 	$result=busqueda($sql, $link);
 	if($row=recibir_array($result)){
 		if($row['tipo']=="superuser" || $row['tipo']=="administrador"){
